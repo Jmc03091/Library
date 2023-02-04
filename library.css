@@ -1,0 +1,87 @@
+
+
+* {
+box-sizing:border-box;
+}
+
+body {
+margin:0;
+overflow:hidden;
+background-color:ghostwhite;
+}
+
+input, button {
+display:block;
+margin-top:10px;
+}
+
+input:focus {
+outline:0px solid #E5E7EB;
+}
+
+.formMove {
+
+position:absolute;
+left:10%;
+top:20%;
+}
+
+.newBtn {
+position:relative;
+bottom:30px;
+}
+
+label, input, .submitBtn {
+visibility:hidden;
+}
+
+.tableMove {
+position:absolute;
+left:33%;
+top:20%;
+}
+
+table {
+table-layout:fixed;
+width:50%;
+border-collapse:collapse;
+border:3px solid black;
+}
+
+tr {
+border-collapse:collapse;
+border:1px solid black;
+
+}
+
+td {
+border-collapse:collapse;
+border:1px solid black;
+
+}
+
+
+.delBtn {
+border:1px solid black;
+background-color:#DC143C;
+color:white;
+}
+
+.delBtn:active {
+box-shadow: inset 0px 0px 5px #c1c1c1;
+outline: none;
+
+}
+
+.readBtn {
+border:1px solid black;
+background-color:#00FF7F;
+color:velvet;
+}
+
+.readBtn:active {
+box-shadow: inset 0px 0px 5px #c1c1c1;
+outline: none;
+}
+
+
